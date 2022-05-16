@@ -2,11 +2,11 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>>v;
-        set<vector<int>>s;
         int n=nums.size();
         if(n<3)
             return v;
         sort(nums.begin(),nums.end());
+        set<vector<int>>s;
        for(int i=0;i<n;i++)
        {
            int low=i+1,high=n-1;
