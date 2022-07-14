@@ -1,6 +1,6 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        for i in range(500):
+        for i in range(100):
             s=0
             t=n
             while(t>0):
