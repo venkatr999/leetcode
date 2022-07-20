@@ -2,6 +2,9 @@ class Solution:
     def toLowerCase(self, s: str) -> str:
         t=''
         for i in s:
-            t+=i.lower()
+            if i.isupper():
+                t+=i.lower()
+            else:
+                t+=i
         return t
         
