@@ -9,4 +9,4 @@ class Solution:
             else:
                 perm.append(r)
                 r-=1
-        return perm + [r]
+        return perm + [l]
