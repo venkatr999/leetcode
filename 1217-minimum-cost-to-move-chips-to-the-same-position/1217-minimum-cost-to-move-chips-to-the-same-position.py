@@ -7,7 +7,4 @@ class Solution:
                 e+=1
             else:
                 o+=1
-        if(e>o):
-            return o
-        else:
-            return e
+        return min(e,o)
