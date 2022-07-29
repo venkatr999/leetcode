@@ -1,6 +1,5 @@
 class Solution:
     def minTimeToType(self, word: str) -> int:
-        n=len(word)
         p='a'
         time=0
         for i in word:
