@@ -4,10 +4,9 @@ class Solution:
         p='a'
         time=0
         for i in word:
-            t=abs(ord(p)-abs(ord(i)))
-            t=min(t,abs(26-t))
+            t=abs(ord(p)-ord(i))
+            time+=min(t,abs(26-t))+1
             p=i
-            time+=(t+1)
         return time
             
             
