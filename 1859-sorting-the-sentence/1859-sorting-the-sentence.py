@@ -4,6 +4,6 @@ class Solution:
         n=len(l)
         res=['*']*n
         for i in range(n):
-            n1=int(l[i][-1])
-            res[n1-1]=l[i][:-1]
+            n1=int(l[i][-1])-1
+            res[n1]=l[i][:-1]
         return ' '.join(res)
